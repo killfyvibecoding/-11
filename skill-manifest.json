@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-product-visual-suite",
+  "version": "0.1.0",
+  "description": "Turn product photos into a consistent, reviewable e-commerce visual set.",
+  "license": "MIT",
+  "entrypoint": "SKILL.md",
+  "ui_metadata": "agents/openai.yaml",
+  "supported_modes": [
+    "standard-asset-set",
+    "reference-detail-page",
+    "full-package"
+  ],
+  "preferred_renderer": "built-in image_gen",
+  "references": [
+    "references/standard-asset-set.md",
+    "references/detail-page-mode.md",
+    "references/muyang-common-product-poster-template.md",
+    "references/flowith-template-adapter.md",
+    "references/flowith-template-04bb8569.md",
+    "references/qa-and-recovery.md"
+  ],
+  "release_policy": {
+    "unknown_facts": "pending",
+    "generated_text": "needs_review",
+    "platform_rules": "pending_until_verified",
+    "publishable_requires_human_review": true
+  }
+}

@@ -1,0 +1,14 @@
+.DS_Store
+.media-writer-runtime/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.key
+*.pem
+tmp/
+output/
+generated_images/
+*.log
