@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ecommerce Product Visual Suite"
+  short_description: "Generate stable, reviewable e-commerce image sets"
+  default_prompt: "Use $ecommerce-product-visual-suite to turn this product photo into a complete e-commerce image set with product identity, copy, and QA checks preserved."
